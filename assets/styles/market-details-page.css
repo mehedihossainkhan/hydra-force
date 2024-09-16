@@ -1,0 +1,28 @@
+.market-page-hero {
+    background-size: cover;
+}
+
+.about-rexroth-hydraforce p {
+    color: #494E54;
+}
+
+.markets-featured-prods .inner-card-content h4 span {
+    display: flex;
+    font-weight: 500;
+}
+
+.typical-applications-card-img {
+    height: 280px;
+    object-fit: contain;
+}
+
+.typical-applications .d-lg-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+    section.offset-img-sec.bg-alt-light .container::after {
+        content: none;
+    }
+}

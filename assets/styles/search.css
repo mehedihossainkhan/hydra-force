@@ -1,0 +1,43 @@
+section.site-search {
+    border-bottom: 1px solid #f3f3f3;
+}
+
+section.site-search input {
+    font-size: 18px;
+}
+
+section.site-search input::placeholder {
+    opacity: 0.75;
+}
+
+section.site-search label {
+    font-size: 14px;
+}
+
+section.search-results h2,
+section.search-results h2 span {
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+section.search-results h2 {
+    display: flex;
+    align-items: center;
+}
+
+section.search-results h2 span {
+    font-size: 26px;
+    color: #3F3E4B;
+}
+
+
+section.search-results .search-card {
+    border: 1px solid #D8DEE7;
+    padding: 2rem !important;
+    align-items: center;
+}
+
+section.search-results span.badge {
+    font-size: 14px;
+    line-height: 1;
+}

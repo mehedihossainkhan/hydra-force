@@ -1,0 +1,40 @@
+.markets-page-hero p {
+    color: #494E54;
+}
+
+.market-cards .col-12 {
+    padding: 17em 1rem 2rem !important;
+    width: calc(33.33% - 1rem);
+    background-size: cover;
+    background-position: center;
+}
+
+.full-width-img-bg {
+    padding: 11rem 2.5rem 3rem !important;
+    background-size: cover;
+}
+
+.full-width-img-bg p.lead {
+    font-size: 24px;
+}
+
+.related-tools-sec .row.gap-4 .col-sm-6 {
+    width: calc(50% - 0.75rem);
+}
+
+.col-12.position-sticky {
+    top: 175px;
+    height: fit-content;
+}
+
+.markets-collage img {
+    width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .col-12.position-sticky {
+        top: initial;
+        position: initial;
+        height: fit-content;
+    }
+}

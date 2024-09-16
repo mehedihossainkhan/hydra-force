@@ -1,0 +1,982 @@
+.hero-sec {
+    overflow-x: clip;
+    background: linear-gradient(to right, #020305, #090d14);
+}
+
+/* .hero {
+    min-height: 60vh;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+} */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    min-height: 60vh;
+    background-repeat: no-repeat;
+    background-size: 107.5%;
+    padding-top: 125px;
+    border-top: 15px solid #0089cf;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    overflow-x: hidden;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    width: calc(100% + 45px);
+    background: linear-gradient(to bottom, #0089cf, #004593);
+    height: 150px;
+    clip-path: polygon(0 115px, 100% 15px, 100% 150px, 0% 150px);
+    left: -30px;
+    bottom: 0;
+}
+
+
+.border-left-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 15px;
+    background: linear-gradient(to bottom, #028acf, #0055a1)
+}
+
+.border-right-gradient {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 15px;
+    background: linear-gradient(to bottom, #028acf, #0188ce);
+}
+
+.hero h1 {
+    color: #00aeef;
+    font-size: 74px;
+    line-height: 0.9;
+    font-weight: 800 !important;
+    position: relative;
+    z-index: 99;
+}
+
+.hero h3 {
+    font-size: 42px;
+    color: #0073ae;
+    line-height: 1;
+}
+
+.hero p {
+    font-size: 20px;
+    font-weight: 600;
+    max-width: 500px;
+}
+
+.hero a {
+    background-color: #ed1c24;
+    border-color: #ed1c24;
+    color: #fff;
+    font-size: 20px;
+}
+
+.hero a:hover {
+    color: #fff;
+}
+
+.hero-2 h1 {
+    font-size: 64px;
+}
+
+.hero-2 h1 {
+    font-size: 66px;
+    color: #00aeef;
+    line-height: 1;
+}
+
+.hero-2 h2 {
+    font-size: 64px;
+    line-height: 1;
+}
+
+.hero-2 p {
+    font-family: 'Inter Tight';
+    font-weight: 500;
+    max-width: 600px;
+}
+
+.new-hero-sec .swiper-pagination {
+    width: fit-content !important;
+    position: relative;
+}
+
+.new-hero-sec .swiper-controls {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    bottom: -25px;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    background-color: #105AB3;
+    height: 10px;
+    width: 10px;
+    margin: 0 10px !important;
+}
+
+.new-hero-sec .swiper-pagination-bullets {
+    bottom: initial !important;
+    top: initial !important;
+}
+
+.new-hero-sec .hero-next-button,
+.new-hero-sec .hero-prev-button {
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    left: initial;
+    margin: 0 10px !important;
+    right: initial;
+}
+
+.new-hero-sec .swiper-button-prev::after,
+.new-hero-sec .swiper-button-next::after {
+    font-family: 'swiper-icons';
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    font-weight: 700;
+}
+
+.new-hero-sec .hero-pause-button {
+    color: #105AB3;
+    margin: 0 10px;
+}
+
+.hero-1 .boom-lift-img {
+    position: absolute;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    z-index: 9;
+}
+
+.hero-3 h1 {
+    color: #0073ae;
+}
+
+.hero h1 span {
+    color: #0089cf;
+}
+
+.hero-3 {
+    padding-top: 175px;
+}
+
+.hero-3 p {
+    max-width: 520px;
+}
+
+.hero-3 .g3-valves {
+    position: absolute;
+    right: 125px;
+    top: 50px;
+    width: 700px;
+}
+
+.hero-4 h1 {
+    color: #0073ae;
+}
+
+.hero-4 p {
+    max-width: 420px;
+}
+
+.hero-4 .cb-valves {
+    position: absolute;
+    right: 500px;
+    top: 50px;
+    width: 500px;
+}
+
+
+/* New Hero Banners */
+@media screen and (min-width:1440px) {
+    .hero-banner--wrapper .container {
+        max-width: 1354px;
+    }
+}
+
+.hero-banner--wrapper {
+    background: #0089cf;
+    padding: 14px 14px 0;
+    position: relative;
+}
+
+.hero-banner--wrapper::after {
+    position: absolute;
+    content: '';
+    background-image: url('../images/hero/bottom-grad.png');
+    width: 100%;
+    z-index: 2;
+    height: 60px;
+    bottom: 0;
+    left: 0;
+    mix-blend-mode: multiply;
+}
+
+.hero-shape-bottom {
+    position: absolute;
+    bottom: 13px;
+    width: calc(100% + 1px);
+    left: 0;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: 1;
+}
+
+.hero-shape-bottom svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 154px;
+    transform: rotateY(180deg);
+}
+
+.hero-shape-bottom .shape-fill {
+    fill: #0089cf;
+}
+
+.bulid-machine {
+    background-image: url('../images/hero/HF-Slider-Build-Better-Machine.jpg');
+}
+
+.load-control {
+    background-image: url('../images/hero/load-control-bg.jpg');
+}
+
+.significantly-less {
+    background-image: url('../images/hero/significantly-less.jpg');
+}
+
+.plug-play {
+    background-image: url('../images/hero/plug-play-bg.jpg');
+}
+
+.hero-banner-slide {
+    background-size: cover;
+    background-position: center;
+    padding: 88px 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.hero-content--wrapper h1 {
+    font-size: 58px;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: -1.45px;
+    color: #00aeef;
+    margin-bottom: 12px;
+}
+
+.hero-content--wrapper h6 {
+    font-weight: 600 !important;
+    font-size: 40px;
+    line-height: 1.05;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    color: #0073ae;
+    margin-bottom: 28px;
+}
+
+.hero-content--wrapper p {
+    font-size: 23px;
+    line-height: 1.435;
+    font-weight: 600;
+    max-width: 590px;
+    margin-bottom: 30px;
+}
+
+.hero-slide-btn {
+    background: #bf1e2e;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 18.5px 38.5px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 8px;
+    font-size: 15px;
+}
+
+.hero-slide-btn svg {
+    width: 8px;
+    height: auto;
+}
+
+.machine-lift {
+    position: absolute;
+    bottom: 0;
+    right: 16px;
+    z-index: 2;
+}
+
+.hero-slider .swiper-slide {
+    padding-bottom: 14px;
+    /* min-height: 602px; */
+    min-height: 55vh;
+    height: auto;
+}
+
+.hero-content--wrapper {
+    padding: 0 14px;
+    max-width: 710px;
+}
+
+
+/* Slide 2 */
+.load-control .hero-content--wrapper h6 {
+    font-size: 42px;
+    letter-spacing: -1.05px;
+    font-weight: 800 !important;
+    margin: 0;
+}
+
+.load-control .hero-content--wrapper h1 {
+    font-size: 83px;
+    letter-spacing: -2.075px;
+    margin-bottom: 24px;
+}
+
+.load-control .hero-content--wrapper p {
+    max-width: 600px;
+}
+
+
+.loud-control-img {
+    position: absolute;
+    z-index: 2;
+    right: 148px;
+    bottom: 66px;
+}
+
+.rexroth-logo {
+    position: absolute;
+    top: 26px;
+    right: 27px;
+}
+
+
+/* Slide 3 */
+.significantly-less .hero-content--wrapper h1 {
+    margin-bottom: 30px;
+}
+
+.significantly-less .hero-content--wrapper h1 span {
+    display: block;
+    color: #0073ae;
+}
+
+.significantly-less .hero-content--wrapper p {
+    max-width: 690px;
+}
+
+.remarkable-img {
+    position: absolute;
+    top: 80px;
+    right: 47px;
+    z-index: 2;
+}
+
+/* Slide 4 */
+.plug-play .hero-content--wrapper h6 {
+    margin: 0;
+    font-size: 46px;
+    letter-spacing: -1.15px;
+    color: #00aeef;
+}
+
+.plug-play .hero-content--wrapper h1 {
+    font-size: 64px;
+    letter-spacing: -1.6px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.plug-play .hero-content--wrapper p {
+    color: #fff;
+    max-width: 650px;
+    margin-bottom: 35px;
+}
+
+@media (min-width:1360px) and (max-width:1439px) {
+    .hero-shape-bottom svg {
+        height: 134px;
+    }
+
+    .hero-content--wrapper {
+        padding: 0;
+    }
+
+    .hero-banner--wrapper .container {
+        max-width: 1254px;
+    }
+
+    /* Slide 1 */
+    .machine-lift img {
+        max-width: 660px;
+    }
+
+    /* Slide 3 */
+    .loud-control-img {
+        right: 128px;
+        bottom: 66px;
+    }
+
+}
+
+@media (min-width:1200px) and (max-width:1359px) {
+    .hero-shape-bottom svg {
+        height: 114px;
+    }
+
+    /* Slide 1 */
+    .machine-lift img {
+        max-width: 590px;
+    }
+
+    .hero-content--wrapper h1 {
+        font-size: 52px;
+    }
+
+    .hero-content--wrapper h6 {
+        font-size: 36px;
+    }
+
+    .hero-content--wrapper p {
+        font-size: 20px;
+        max-width: 490px;
+        margin-bottom: 30px;
+    }
+
+    .hero-banner-slide {
+        padding: 68px 0;
+    }
+
+    .hero-slider .swiper-slide {
+        min-height: 552px;
+    }
+
+    /* Slide 2 */
+    .load-control .hero-content--wrapper h6 {
+        font-size: 33px;
+    }
+
+    .load-control .hero-content--wrapper h1 {
+        font-size: 67px;
+    }
+
+    .loud-control-img img {
+        max-width: 320px;
+    }
+
+    .loud-control-img {
+        right: 98px;
+        bottom: 66px;
+    }
+
+    .load-control .hero-content--wrapper p {
+        max-width: 560px;
+        font-size: 18px;
+    }
+
+    /* Slide 3 */
+    .significantly-less .hero-content--wrapper p {
+        max-width: 590px;
+    }
+
+    .remarkable-img img {
+        max-width: 430px;
+    }
+
+    /* Slide 4 */
+    .plug-play .hero-content--wrapper h6 {
+        font-size: 38px;
+    }
+
+    .plug-play .hero-content--wrapper h1 {
+        font-size: 53px;
+    }
+
+    .plug-play .hero-content--wrapper p {
+        max-width: 620px;
+    }
+
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .hero-shape-bottom svg {
+        height: 104px;
+    }
+
+    /* Slide 1 */
+    .machine-lift img {
+        max-width: 480px;
+    }
+
+    .hero-content--wrapper h1 {
+        font-size: 42px;
+    }
+
+    .hero-content--wrapper h6 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .hero-content--wrapper p {
+        font-size: 16px;
+        max-width: 410px;
+        margin-bottom: 25px;
+    }
+
+    .hero-slide-btn {
+        padding: 15.5px 34.5px;
+        font-size: 14px;
+    }
+
+    .hero-banner-slide {
+        padding: 58px 0;
+    }
+
+    .hero-slider .swiper-slide {
+        min-height: 472px;
+    }
+
+    /* Slide 2 */
+    .loud-control-img img {
+        max-width: 270px;
+    }
+
+    .load-control .hero-content--wrapper h1 {
+        font-size: 65px;
+        margin-bottom: 18px;
+    }
+
+    .load-control .hero-content--wrapper h6 {
+        font-size: 32px;
+    }
+
+    .load-control .hero-content--wrapper p {
+        max-width: 500px;
+    }
+
+    .loud-control-img {
+        right: 90px;
+        bottom: 66px;
+    }
+
+    /* Slide 3 */
+    .significantly-less .hero-content--wrapper p {
+        max-width: 460px;
+    }
+
+    .remarkable-img img {
+        max-width: 350px;
+    }
+
+    .significantly-less .hero-content--wrapper h1 {
+        font-size: 45px;
+    }
+
+    /* Slide 4 */
+    .plug-play .hero-content--wrapper h6 {
+        font-size: 34px;
+        letter-spacing: -1px;
+    }
+
+    .plug-play .hero-content--wrapper h1 {
+        font-size: 49px;
+        margin-bottom: 20px;
+    }
+
+    .plug-play .hero-content--wrapper p {
+        max-width: 460px;
+        margin-bottom: 25px;
+    }
+
+    .hero-banner-slide.plug-play {
+        background-position: 70%;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .hero-banner--wrapper {
+        padding: 7px 7px 0;
+    }
+
+    .hero-banner-slide {
+        padding: 70px 0 370px;
+        align-items: flex-start;
+    }
+
+    .hero-content--wrapper {
+        padding: 0 6px;
+    }
+
+    /* Slide 1 */
+    .machine-lift img {
+        height: auto;
+        width: 100%;
+    }
+
+    .machine-lift {
+        height: auto;
+        width: 89%;
+        right: 10px;
+    }
+
+    .hero-content--wrapper h1 {
+        font-size: 32px;
+        letter-spacing: -0.5px;
+    }
+
+    .hero-content--wrapper h6 {
+        font-size: 20px;
+        letter-spacing: -0.5px;
+        margin-bottom: 19px;
+    }
+
+    .hero-content--wrapper p {
+        font-size: 16px;
+        max-width: 590px;
+        margin-bottom: 23px;
+    }
+
+    .hero-slide-btn {
+        padding: 14.5px 32.5px;
+        gap: 8px;
+        font-size: 14px;
+    }
+
+    .machine-lift img.boom-lift-mob {
+        display: block;
+        margin-left: auto;
+    }
+
+    .hero-shape-bottom svg {
+        height: 54px;
+    }
+
+    /* Slide 2 */
+    .load-control {
+        background-position: 60%;
+    }
+
+    .load-control {
+        display: block;
+    }
+
+    .rexroth-logo img {
+        display: block;
+        margin: 0 auto;
+        max-width: 110px;
+    }
+
+    .rexroth-logo {
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .load-control .hero-content--wrapper {
+        text-align: center;
+    }
+
+    .load-control .hero-content--wrapper h6 {
+        font-size: 22px;
+        letter-spacing: -0.5px;
+    }
+
+    .load-control .hero-content--wrapper h1 {
+        font-size: 45px;
+        letter-spacing: -1.075px;
+        margin-bottom: 10px;
+    }
+
+    .load-control .hero-content--wrapper p {
+        max-width: 600px;
+        margin: 0 auto 20px;
+    }
+
+    .load-control .hero-slide-btn {
+        margin: 0 auto;
+    }
+
+    .loud-control-img img {
+        width: 62%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .loud-control-img {
+        right: 0;
+        bottom: 46px;
+        width: 100%;
+    }
+
+    .hero-banner--wrapper::after {
+        height: 43px;
+    }
+
+    /* Slide 3 */
+    .significantly-less {
+        background-position: 70%;
+    }
+
+    .remarkable-img {
+        top: auto;
+        right: 0;
+        width: 100%;
+        bottom: 75px;
+    }
+
+    .remarkable-img img {
+        width: 100%;
+    }
+
+    .significantly-less .hero-content--wrapper h1 {
+        font-size: 31px;
+        margin-bottom: 15px;
+    }
+
+    .significantly-less .hero-content--wrapper p {
+        margin-bottom: 19px;
+    }
+
+    .remarkable-img img {
+        width: 82%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* Slide 4 */
+    .plug-play {
+        background-image: url('../images/hero/plug-play-mob-bg.jpg');
+    }
+
+    .plug-play .hero-content--wrapper {
+        text-align: center;
+    }
+
+    .plug-play .hero-content--wrapper h6 span {
+        display: block;
+    }
+
+    .plug-play .hero-content--wrapper h6 {
+        font-size: 39px;
+    }
+
+    .plug-play .hero-content--wrapper h6 span {
+        display: block;
+        font-size: 46px;
+    }
+
+    .plug-play .hero-content--wrapper h1 {
+        font-size: 31px;
+        margin-bottom: 16px;
+        margin-top: 2px;
+    }
+
+    .plug-play .hero-content--wrapper a {
+        margin: 0 auto;
+    }
+
+    .plug-play .hero-content--wrapper p {
+        margin-bottom: 25px;
+    }
+
+    .plug-play.hero-banner-slide {
+        padding-bottom: 0;
+    }
+
+}
+
+@media screen and (max-width:374px) {
+    .hero-banner-slide {
+        padding: 70px 0 340px;
+    }
+
+    /* Slide 2 */
+    .load-control .hero-content--wrapper h6 {
+        font-size: 19px;
+        letter-spacing: -0.5px;
+    }
+
+    .load-control .hero-content--wrapper h1 {
+        font-size: 38px;
+        letter-spacing: -1.075px;
+        margin-bottom: 10px;
+    }
+
+    /* Slide 4 */
+    .plug-play .hero-content--wrapper h6 {
+        font-size: 35px;
+    }
+
+    .plug-play .hero-content--wrapper h6 span {
+        font-size: 42px;
+    }
+
+    .plug-play .hero-content--wrapper h1 {
+        font-size: 28px;
+    }
+}
+
+@media (min-width:481px) and (max-width:767px) {
+    .hero-content--wrapper h1 {
+        font-size: 39px;
+    }
+
+    .hero-content--wrapper h6 {
+        font-size: 26px;
+    }
+
+    .hero-content--wrapper p {
+        font-size: 16px;
+    }
+
+    .hero-banner-slide {
+        padding: 70px 0 410px;
+    }
+}
+
+@media (min-width:421px) and (max-width:499px) {
+    .machine-lift {
+        width: 78%;
+    }
+
+    .loud-control-img img {
+        width: 52%;
+    }
+}
+
+@media (min-width:500px) and (max-width:650px) {
+    .machine-lift img {
+        width: auto;
+        max-height: 370px;
+    }
+
+    .loud-control-img img {
+        width: 250px;
+    }
+
+    .remarkable-img img {
+        width: 72%;
+    }
+}
+
+@media (min-width:576px) and (max-width:991px) {
+    .machine-lift img {
+        width: auto;
+        max-height: 390px;
+    }
+
+    .loud-control-img img {
+        width: 260px;
+    }
+}
+
+@media (min-width:700px) and (max-width:991px) {
+    .remarkable-img img {
+        width: 52%;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .machine-lift img.boom-lift-desk {
+        display: none;
+    }
+
+    /* Slide 1 */
+    .hero-content--wrapper h1 {
+        font-size: 42px;
+    }
+
+    .hero-content--wrapper h6 {
+        font-size: 30px;
+        letter-spacing: -0.5px;
+        margin-bottom: 19px;
+    }
+
+    .hero-content--wrapper p {
+        font-size: 18px;
+        max-width: 450px;
+    }
+
+    /* Slide 2 */
+    .load-control .hero-content--wrapper h6 {
+        font-size: 29px;
+        letter-spacing: -0.5px;
+    }
+
+    .load-control .hero-content--wrapper h1 {
+        font-size: 58px;
+    }
+
+    .rexroth-logo {
+        position: absolute;
+        top: 20px;
+        right: 27px;
+        width: auto;
+        margin-bottom: 0;
+    }
+
+    /* Slide 3 */
+    .significantly-less .hero-content--wrapper h1 {
+        font-size: 41px;
+        margin-bottom: 15px;
+    }
+
+    .significantly-less .hero-content--wrapper p {
+        max-width: 530px;
+    }
+
+    /* Slide 4 */
+    .plug-play .hero-content--wrapper h6 span {
+        display: inline;
+        font-size: 39px;
+    }
+
+    .plug-play .hero-content--wrapper {
+        text-align: left;
+    }
+
+    .plug-play .hero-content--wrapper a {
+        margin: 0;
+    }
+
+    .plug-play .hero-content--wrapper h1 {
+        font-size: 55px;
+    }
+
+}
+
+@media (min-width:860px) and (max-width:991px) {
+    .remarkable-img img {
+        width: 40%;
+    }
+}

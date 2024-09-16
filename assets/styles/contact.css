@@ -1,0 +1,120 @@
+ul.contact-nav-tabs {
+    border: none;
+}
+
+#contact-form-tabs .btn {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1;
+    padding: 15px 20px;
+    border: 1px solid #EDF1F5;
+    border-radius: 0;
+    color: #576071;
+}
+
+#contact-form-tabs .btn.active,
+#contact-form-tabs .btn:hover {
+    background-color: #105AB3;
+    color: #fff;
+}
+
+#contact-form-tab-panels h2 {
+    font-size: 38px;
+    line-height: 1;
+}
+
+#contact-form-tab-panels h5 {
+    font-size: 18px;
+    color: #576071;
+    line-height: 1;
+}
+
+#contact-form-tab-panels .country-contact-cards h5 {
+    color: #231F20;
+}
+
+.country-contact-cards {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.country-contact-cards .col-sm-6 a {
+    line-height: 1;
+    display: flex;
+    align-items: center;
+}
+
+.country-contact-cards .col-sm-6 a img {
+    margin-right: 0.75rem;
+}
+
+.country-contact-cards .col-sm-6 a:hover {
+    text-decoration: underline !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+    opacity: 0.75 !important;
+}
+
+textarea::placeholder {
+    line-height: 1.2;
+}
+
+.form-check {
+    flex: 0 0 55%;
+    color: #3F3E4B;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.form-check-input {
+    width: 1rem;
+    min-width: 1rem;
+    height: 1rem;
+    min-height: 1rem;
+    border-radius: 50% !important;
+    border: 1px solid #D8DEE7;
+    margin-right: 0.75rem;
+    margin-top: 0;
+}
+
+.marketing-consent-form-check-input {
+    line-height: 1.375;
+    color: #3F3E4B;
+}
+
+.form-check-input:checked {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.form-multi-select .form-check {
+    border: 1px solid #D8DEE7;
+}
+
+.form-multi-select .form-label {
+    font-size: 12px;
+    color: #576071;
+}
+
+.form-multi-select .form-check-label {
+    opacity: 0.75;
+    width: 100%;
+}
+
+.col-lg-5.position-sticky {
+    top: 175px;
+    height: fit-content;
+}
+
+.international-contacts .row .col {
+    padding: 2.5rem !important;
+}
+
+.international-contacts .row .col img.globe-icon {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}

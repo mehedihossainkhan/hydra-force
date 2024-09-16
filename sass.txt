@@ -1,0 +1,6 @@
+sass --watch C:\laragon\www\hydraforce\assets\scss\custom.scss:C:\laragon\www\hydraforce\assets\styles\custom.css
+
+sass --watch /Users/www/hydraforce/assets/scss/custom.scss:/Users/www/hydraforce/assets/styles/custom.css
+
+// if minify css
+--style=compressed && postcss

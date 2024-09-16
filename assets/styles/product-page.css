@@ -1,0 +1,243 @@
+.product-hero h1 small {
+    color: #494E54;
+}
+
+.product-hero .col-xl-5 {
+    background-color: #F8FAFC;
+}
+
+.product-hero .col-xl-5 img.main-product {
+    mix-blend-mode: multiply;
+    object-fit: contain;
+    width: 100%;
+}
+
+.product-hero .col-xl-5 img.technical-diagram {
+    height: 105px;
+    top: 0.75rem;
+    right: 0.75rem;
+}
+
+.product-hero p,
+.product-hero ul li {
+    color: #3F3E4B;
+}
+
+.product-hero ul {
+    padding-left: 1.5rem;
+}
+
+.product-hero ul li {
+    font-family: "Inter Tight", sans-serif;
+    margin-bottom: 0.5rem;
+}
+
+.custom-border-bottom {
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.bg-alt-light-2 {
+    background-color: #F8FAFC;
+}
+
+.product-tabs ul.nav-tabs {
+    list-style: none;
+    margin-bottom: 0 !important;
+    padding-left: 0;
+    border-bottom: 1px solid #E8E8E8;
+    flex-wrap: nowrap;
+    overflow-x: overlay;
+}
+
+#productTab li {
+    flex: 0 0 auto !important;
+}
+
+.product-tabs ul.tabs li,
+.product-tabs ul.nav-tabs li button {
+    padding: 1rem;
+    font-size: 14px;
+    line-height: 1;
+    color: #7A7A7A;
+    border-radius: 0 !important;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+    font-weight: 600;
+}
+
+.product-tabs ul.nav-tabs li button:hover {
+    background: #000;
+    color: #fff;
+}
+
+.product-tabs ul li.active,
+.product-tabs ul.nav-tabs li button.active {
+    background-color: #231F20 !important;
+    color: #fff !important;
+}
+
+.product-tabs p {
+    font-size: 18px;
+    color: #3F3E4B;
+}
+
+.product-tabs h6 {
+    color: #3F3E4B;
+}
+
+.product-tabs .div-tabs ul {
+    padding-left: 1.5rem;
+}
+
+.product-tabs .div-tabs ul li,
+.product-tabs .tab-content ul li {
+    font-family: "Inter Tight", sans-serif;
+    color: #3F3E4B;
+    margin-bottom: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.light-blue-hr {
+    border-top: 1px solid #0073AE;
+}
+
+.ul-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+}
+
+.ul-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+}
+
+.ul-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
+    justify-content: space-between;
+    max-width: 520px;
+    width: 100%;
+    height: fit-content;
+}
+
+.ul-container ul li {
+    color: #808080;
+    flex: 1 0 50%;
+    box-sizing: border-box;
+}
+
+.ul-container ul li:not(.title) {
+    color: #808080;
+}
+
+.ul-container ul li.title {
+    color: #4D4D4D;
+    font-weight: 500;
+    flex: 0 0 100%;
+    text-transform: capitalize;
+}
+
+.ul-container ul li:not(.title):only-child,
+.ul-container ul li:not(.title):only-of-type {
+    flex: 0 0 100%;
+}
+
+.ul-container ul li a {
+    font-family: "Inter Tight", sans-serif;
+}
+
+#performance img,
+#dimensions img {
+    mix-blend-mode: multiply;
+}
+
+.product-table-container p {
+    font-size: 16px;
+}
+
+.product-table .header {
+    background-color: #105AB3;
+    color: #fff;
+}
+
+.product-table .col {
+    font-family: "Inter Tight", sans-serif;
+    text-transform: capitalize !important;
+    padding: 0.5rem !important;
+    font-size: 14px;
+    color: #808080;
+}
+
+.product-table .header .col {
+    font-size: 12px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.product-table .header .col-2 {
+    text-align: center;
+}
+
+.product-table :not(.header) .col {
+    border-right: 1px solid #E8E8E8;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.product-table :not(.header) .col-2 {
+    text-align: center;
+    border-left: 1px solid #E8E8E8;
+}
+
+.product-table .row {
+    --bs-gutter-x: 0 !important;
+}
+
+.product-table-container>.col-sm-3 {
+    width: 22%;
+}
+
+.product-table-container>.col-sm-3 img {
+    width: 100%;
+}
+
+.product-tabs.see-all .tab-pane {
+    display: block !important;
+    opacity: 1 !important;
+}
+
+.featured-prods .col-sm-3 {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+section.featured-prods .featured-prod-img-wrapper {
+    background-color: #fff;
+}
+
+section.featured-prods .featured-prod-details {
+    background-color: #fff;
+}
+
+section.featured-prods .featured-prod-details a {
+    font-size: 15px;
+}
+
+.featured-prods .col-lg-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 992px) {
+    .featured-prods .col-lg-3 {
+        width: 23.5%;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1460px) {
+    .btn-lg-p {
+        padding: 20px 27.5px !important;
+    }
+}

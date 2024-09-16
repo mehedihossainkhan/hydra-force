@@ -1,0 +1,132 @@
+.about-card {
+    padding-left: 2.5rem !important;
+    padding-right: 2.5rem !important;
+    width: calc(50% - 0.75rem);
+    box-shadow: 0px 4px 15px 0px rgba(112, 144, 176, 0.15);
+}
+
+.about-card img {
+    margin-bottom: 1rem;
+}
+
+.about-mission-cards .col {
+    min-height: 300px;
+    background-size: cover;
+}
+
+
+section.offset-img-sec,
+section.offset-img-left-sec {
+    max-width: 1800px;
+    margin: auto;
+}
+
+section.offset-img-sec::after,
+section.offset-img-left-sec::after {
+    content: "";
+    height: 100%;
+    background: #f7f9fc;
+    position: absolute;
+    width: 50%;
+    right: -50%;
+    z-index: 9;
+    top: 0;
+}
+
+/* section.offset-img-sec.bg-alt-light::after,
+section.offset-img-sec.bg-alt-light::before, */
+section.offset-img-sec.bg-alt-light .container::after {
+    background: #fff !important;
+    z-index: 1;
+}
+
+
+section.offset-img-sec::before,
+section.offset-img-left-sec::before {
+    content: "";
+    height: 100%;
+    background: #f7f9fc;
+    position: absolute;
+    width: 50%;
+    left: -50%;
+    z-index: 9;
+    top: 0;
+}
+
+section.offset-img-left-sec::before,
+section.offset-img-left-sec::after {
+    background: #fbfcfd !important;
+}
+
+section.offset-img-sec .container::after {
+    content: "";
+    background: #F8FAFC;
+    position: absolute;
+    width: 80px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.col.offset-img-wrapper img {
+    position: absolute;
+    right: 0;
+    /* top: 2.75rem; */
+}
+
+section.offset-img-sec .row {
+    min-height: calc(606px + 2.5rem);
+}
+
+.offset-img-left-wrapper img {
+    position: absolute;
+    left: 0;
+}
+
+section.offset-img-left-sec .row {
+    min-height: calc(606px + 2.5rem);
+}
+
+.col.offset-img-left-wrapper~div {
+    padding-left: 3rem !important;
+    position: relative;
+    z-index: 9;
+}
+
+section.offset-img-sec p {
+    max-width: 630px;
+}
+
+section.offset-img-left-sec .row::after {
+    content: "";
+    background: #125ab3;
+    position: absolute;
+    width: 180px;
+    height: 100%;
+    top: 3rem;
+    right: 0;
+    height: 646px !important;
+    width: 50%;
+}
+
+section.corporate-brochure-sec .custom-bg-wrapper {
+    background-size: cover;
+}
+
+section.corporate-brochure-sec {
+    line-height: 1.125;
+}
+
+section.we-move-sec .col {
+    background-size: cover;
+}
+
+section.we-move-sec h4 {
+    /* max-width: 375px; */
+    text-align: center;
+}
+
+section.we-move-sec .col-sm-6 {
+    width: calc(50% - 1.5rem);
+}
